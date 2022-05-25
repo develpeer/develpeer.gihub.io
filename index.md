@@ -1,5 +1,10 @@
-## Welcome to Devlpeer's home
-TODO
+---
+layout: default
+title: Welcome to Develpeer's home on the Interwebs
+nav_order: 1
+---
 
-Updating to force a refresh
+## Welcome to Develpeer's home
+Here you shall find stuff about me..Someday
+
 

@@ -2,3 +2,10 @@ remote_theme: just-the-docs/just-the-docs
 google_analytics: G-W75TLVX305
 #used by just the docs..
 ga_tracking: G-W75TLVX305
+
+#title
+title:"Develpeer's Home Paga"
+
+#other config
+search_enabled: true
+nav_sort: case_insensitive
