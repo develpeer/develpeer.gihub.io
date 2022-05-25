@@ -1,9 +1,12 @@
-#  tl;dr (quickstart)
+# Google Sheets Calendar
+
+###  tl;dr (quickstart)
 Get started by copying this spreadsheet :arrow_right:  [Editable Calendar for any year in Google Sheets](https://docs.google.com/spreadsheets/d/13Ip7XqFefAhJLJExgPwqhUVyzK9U10TeIDiKt4Wc6SU/edit?usp=sharing) 
 
-Read on for more detailed instuctions ...
 
-# Google Sheets Calendar
+### Read on for more detailed instuctions ...
+
+
 Using the Google Sheets below, you can easily create an editable calendar withing a google spreadsheet in seconds. You can use this to create a monthly schedule or content calendar and share it with team members. Since this is essentially just a google sheet, you can customize it endlessly, adding your own colors, logos etc.
 
 Follow the steps below to make a calendar in Google Sheets.
