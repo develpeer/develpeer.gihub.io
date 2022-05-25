@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to Develpeer's home on the Interwebs
+title: Home
 nav_order: 1
 ---
 
