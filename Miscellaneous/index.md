@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Projects
-nav_order: 2
+title: Miscellaneous
+nav_order: 3
 has_children: true
 ---
-## Welcome to Develpeer's Projects
+## Welcome to Develpeer's Other Stuff
 Here you shall find stuff about me..Someday

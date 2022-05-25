@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Calendar in Google Sheets
+title: Google Sheets Calendar
+parent: Projects
+nav_order: 1
 ---
 # Google Sheets Calendar
 
