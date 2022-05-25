@@ -2,6 +2,7 @@
 layout: default
 title: Calendar in Google Sheets
 nav_exclude: true
+search_exclude: true
 ---
 # Google Sheets Calendar
 

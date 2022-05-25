@@ -11,6 +11,8 @@ title: "Develpeer's Home Page"
 
 #other config
 search_enabled: true
+#only one page per search
+search.heading_level: 1
 nav_sort: case_insensitive
 
 exclude: ['bin',"*.sh","*.yml"]
