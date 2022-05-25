@@ -40,20 +40,20 @@ If you just need a printable calendar, use one of these or generate your own usi
 
 ## Detailed intructions
 ### Copy the Google Sheet
-![Make a copy of the Google Sheet](images/step_1_make_a_copy.png)
+![Make a copy of the Google Sheet](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_1_make_a_copy.png)
 
 ### Change the year
-![Change the year](images/step_2a_change_the_year.png)
-![Change the year](images/step_2b_change_the_year.png)
+![Change the year](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_2a_change_the_year.png)
+![Change the year](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_2b_change_the_year.png)
 
 ### Calendar will update automatically
-![Change the year](images/step_3a.png)
-![Change the year](images/step_3b.png)
+![Change the year](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_3a.png)
+![Change the year](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_3b.png)
 
 
 ## Annotating dates with notes 
 
-![Changing the year parameter](images/annotations.png)
+![Changing the year parameter](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/annotations.png)
 
 ## Features:
 * Shows the calendar for entire year. 
