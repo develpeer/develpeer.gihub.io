@@ -1,11 +1,16 @@
+#theme
 remote_theme: just-the-docs/just-the-docs
+
+#Analytics
 google_analytics: G-W75TLVX305
-#used by just the docs..
+#used by just-the-docs..
 ga_tracking: G-W75TLVX305
 
 #title
-title:"Develpeer's Home Paga"
+title:"Develpeer's Home Page"
 
 #other config
 search_enabled: true
 nav_sort: case_insensitive
+
+exclude: ['bin',"*.sh","*.yml"]
