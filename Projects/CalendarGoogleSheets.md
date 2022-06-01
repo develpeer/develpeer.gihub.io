@@ -8,7 +8,8 @@ nav_order: 1
 
 ###  tl;dr (quickstart)
 Get started by copying this spreadsheet -> [Editable Calendar for any year in Google Sheets](https://docs.google.com/spreadsheets/d/13Ip7XqFefAhJLJExgPwqhUVyzK9U10TeIDiKt4Wc6SU/edit?usp=sharing)
-![Change the year](https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_3b.png)
+
+[<img src="https://github.com/develpeer/GoogleSpreadsheetCalendar/raw/master/images/step_3b.png">](https://docs.google.com/spreadsheets/d/13Ip7XqFefAhJLJExgPwqhUVyzK9U10TeIDiKt4Wc6SU/edit?usp=sharing)
 
 ### Read on for more detailed instuctions ...
 
