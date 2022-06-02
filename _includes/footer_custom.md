@@ -1,0 +1,1 @@
+&copy; 2022 - &infin; - [Develpeer](https://develpeer.com).  Made in <span style="color:#e91e63;font-size:18px">&heartsuit;</span> with S&#8491;&#8469; F&#8477;A&#8469;ClSC&#12295;
