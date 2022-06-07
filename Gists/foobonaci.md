@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/foobonaci.py
+parent: Gists
+---
 ```  python
 import random
 # Foobonacci numbers module

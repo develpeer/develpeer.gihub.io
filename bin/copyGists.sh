@@ -26,7 +26,12 @@ do
 
 	echo "Creating new markdown file: ["$newf"] with extension: ["$ext"] and file type: ["$file_type"]"
 	echo "Creating..."
-	echo "\`\`\` " $file_type > $newf
+        echo "---"> $newf
+        echo "layout: default">> $newf
+        echo "title: "$f>> $newf
+        echo "parent: Gists">> $newf
+        echo "---">> $newf
+	echo "\`\`\` " $file_type >> $newf
 	cat $f >> $newf
 	echo "\`\`\`" >> $newf
 done

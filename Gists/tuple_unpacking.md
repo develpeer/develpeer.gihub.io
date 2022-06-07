@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/tuple_unpacking.py
+parent: Gists
+---
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 

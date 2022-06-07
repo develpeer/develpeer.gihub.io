@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/data_structures.py
+parent: Gists
+---
 ```  python
 ##
 # List prepend test

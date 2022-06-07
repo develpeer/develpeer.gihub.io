@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/function_default_values.py
+parent: Gists
+---
 ```  python
 from random import randint
 

@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/exception_handler.py
+parent: Gists
+---
 ```  python
 try:
     try:

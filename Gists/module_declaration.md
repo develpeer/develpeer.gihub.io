@@ -1,3 +1,8 @@
+---
+layout: default
+title: ../../gistAnotherRepo/src/module_declaration.py
+parent: Gists
+---
 ```  python
 print("<<< Only importing fib")
 from foobonaci import fib1 as fib2,fib2 as fib1
