@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: foobonaci.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -31,4 +31,5 @@ def fib2(n):
 import sys
 if __name__ == "__main__":
     fib1(int(sys.argv[1]))
+
 ```

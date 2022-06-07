@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: function_variables.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -82,4 +82,5 @@ d2["d1"] = {"dev": 1, "eloper": 2}
 print(f"Value of 'd2' before invocation is:{d2}")
 modify_reference(deepcopy(d2))
 print(f"Value of 'd2' after invocation is:{d2}")
+
 ```

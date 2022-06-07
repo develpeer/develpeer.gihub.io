@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: fibonacci_generator.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -46,4 +46,5 @@ if type(fib_gen) == types.GeneratorType:
         l.append(next(fib_gen))
         counter += 1
     print(l)
+
 ```

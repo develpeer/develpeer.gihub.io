@@ -30,7 +30,7 @@ do
         echo "---"> $newf
         echo "layout: default">> $newf
         echo "title: Gist for: "$fonly>> $newf
-        echo "parent: Gist for fun">> $newf
+        echo "parent: Gists">> $newf
         echo "nav_order: 1">> $newf
         echo "---">> $newf
         echo "">> $newf
@@ -38,5 +38,6 @@ do
 
 	echo "\`\`\` " $file_type >> $newf
 	cat $f >> $newf
+	echo "" >> $newf
 	echo "\`\`\`" >> $newf
 done

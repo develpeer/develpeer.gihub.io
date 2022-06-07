@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: exception_handler.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -20,4 +20,5 @@ except ZeroDivisionError:
     #do nothing
     print("(*) Well caught in the deep")
 finally:
-    print("And finally...will come here")```
+    print("And finally...will come here")
+```

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: tuple_unpacking.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -52,4 +52,5 @@ print("generators:", generator_object_1, generator_object_2, generator_object_3)
 print("After iteration into lists", list(generator_object_1), list(generator_object_2), list(generator_object_3))
 print("Only range works a second time...!", list(generator_object_1), list(generator_object_2),
       list(generator_object_3))
+
 ```

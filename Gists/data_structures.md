@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: data_structures.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -83,4 +83,5 @@ try:
     print (None < "b")
 except TypeError:
     print ("Comparing objects of different types with < or > is legal provided that the objects have appropriate comparison methods")
+
 ```

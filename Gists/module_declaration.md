@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: module_declaration.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -23,4 +23,5 @@ print("Prefixes:",site.PREFIXES)
 print("User site:",site.USER_SITE)
 
 print("sys tiene",dir(sys))
-print("global namespace",dir())```
+print("global namespace",dir())
+```

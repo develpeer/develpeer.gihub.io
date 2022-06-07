@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: match_python_3_10.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -186,4 +186,5 @@ def x2(x):
 
 
 x2(red)
+
 ```

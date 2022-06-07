@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: function_default_values.py
-parent: Gist for fun
+parent: Gists
 nav_order: 1
 ---
 
@@ -88,5 +88,6 @@ is_the_last_argument_a_positional_argument(1, 2, p2="200")
 f = lambda x, y, z: x + y if (True if z else randint(0, 1)) else x * y
 print(f(1, 2, True))
 print(f(1, 2, False))
+
 
 ```
