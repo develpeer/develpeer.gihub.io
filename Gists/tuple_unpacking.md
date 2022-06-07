@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for - tuple_unpacking.py
-parent: Gists
+parent: Gist for fun
 ---
 
 # Gist for:  tuple_unpacking.py

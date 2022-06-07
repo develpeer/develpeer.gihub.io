@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for - foobonaci.py
-parent: Gists
+parent: Gist for fun
 ---
 
 # Gist for:  foobonaci.py

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for - function_variables.py
-parent: Gists
+parent: Gist for fun
 ---
 
 # Gist for:  function_variables.py

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for - match_python_3_10.py
-parent: Gists
+parent: Gist for fun
 ---
 
 # Gist for:  match_python_3_10.py
