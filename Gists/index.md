@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Projects
-nav_order: 20
+title: Gist for fun 
+nav_order: 30 
 has_children: true
 ---
 ## Welcome to Develpeer's Projects
