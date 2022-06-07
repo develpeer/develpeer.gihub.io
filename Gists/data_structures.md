@@ -6,6 +6,8 @@ nav_order: 1
 ---
 
 # Gist for:  data_structures.py
+
+# Source Code 
 ```  python
 ##
 # List prepend test
@@ -84,4 +86,41 @@ try:
 except TypeError:
     print ("Comparing objects of different types with < or > is legal provided that the objects have appropriate comparison methods")
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> Before prepend list_1 : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After prepend list_1 : [666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After prepend list_1 : [665, 666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After prepend list_1 : [664, 665, 666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After prepend list_1 : [663, 664, 665, 666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After insert list_1 : [663, 664, 664.5, 665, 666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> After insert list_1 : [663, 664, 664.5, 665, 655.5, 666, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> -=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=-
+>>> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> [(0, 0), (2, 4), (4, 16), (6, 36), (8, 64)]
+>>> 0
+>>> 2
+>>> 4 6 8 10 12 14 16 18
+>>> ('hello', None)
+>>> False True
+>>> Set Diff: {'y', 't', 'e', 'r'}
+>>> Set Union: {'l', 'o', 'r', 'e', 'y', 'n', 't'}
+>>> Set intersection: {'l'}
+>>> Set XOR {'o', 'y', 't', 'r', 'e', 'n'}
+>>> Set XOR {'o', 'y', 't', 'r', 'e', 'n'}
+>>> name lancelot
+>>> quest the holy grail
+>>> favorite color blue
+>>> {'name': 'lancelot', 'quest': 'the holy grail', 'favorite color': 'blue'}
+>>> Filtered data is [57.2, 52.7, 56.3, 53.5, 48.8]
+>>> {'b', 'a'} <class 'set'>
+>>> calling .keys() or .items() will fail
+>>> assigning values to a set will also fail
+>>> {'b', 'a'} <class 'set'>
+>>> Comparing objects of different types with < or > is legal provided that the objects have appropriate comparison methods
 ```

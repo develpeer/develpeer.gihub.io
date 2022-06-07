@@ -11,6 +11,7 @@ do
 	case $ext in
 	  py)
             file_type="python"
+            output=`python $f`
 	    ;;
 
 	  js)
@@ -29,17 +30,45 @@ do
 	echo "Creating new markdown file: ["$newf"] with extension: ["$ext"] and file type: ["$file_type"]"
 	nav_order=$((nav_order+1))
 	echo "Creating..."
-        echo "---"> $newf
-        echo "layout: default">> $newf
-        echo "title: Gist for - "$fonly>> $newf
-        echo "parent: Gist for fun">> $newf
-        echo "nav_order: "$nav_order>> $newf
-        echo "---">> $newf
-        echo "">> $newf
-        echo "# Gist for: " $fonly >> $newf
 
-	echo "\`\`\` " $file_type >> $newf
-	cat $f >> $newf
-	echo "" >> $newf
-	echo "\`\`\`" >> $newf
+  {
+    #add jekyll front matter
+    echo "---
+layout: default
+title: Gist for - $fonly
+parent: Gist for fun
+nav_order: $nav_order
+---"
+    #add html/md header
+    echo "
+# Gist for:  $fonly
+
+# Source Code 
+\`\`\`  $file_type"
+
+    #add content
+    cat $f
+    echo "
+\`\`\`"
+    #add Output
+    echo "
+
+# Output
+After running the above code snippet, you will get this output
+
+\`\`\`"
+    case $file_type in
+      python)
+        python $f|while read ol
+          do echo ">>>" $ol
+        done
+        ;;
+      #add other types if needed
+      *)
+        echo -e "\033[41m!!Error\033[0m No handler created for $file_type" >&2
+        ;;
+    esac
+	echo "\`\`\`"
+	} > "$newf"
+
 done

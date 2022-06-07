@@ -6,6 +6,8 @@ nav_order: 3
 ---
 
 # Gist for:  fibonacci_generator.py
+
+# Source Code 
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 ##
@@ -47,4 +49,14 @@ if type(fib_gen) == types.GeneratorType:
         counter += 1
     print(l)
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+>>> Good, The fib function is a generator.
+>>> [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 ```

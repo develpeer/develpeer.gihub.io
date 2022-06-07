@@ -6,6 +6,8 @@ nav_order: 7
 ---
 
 # Gist for:  match_python_3_10.py
+
+# Source Code 
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 
@@ -187,4 +189,43 @@ def x2(x):
 
 x2(red)
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> Bad request
+>>> X=401, Y=600
+>>> LIST X=401, Y=600
+>>> NONE X=401, Y=600
+>>> ==>()
+>>> LIST ==>[]
+>>> ==>Not 2 args (401,)
+>>> LIST ==>Not 2 args
+>>> NONE ==>Not 2 args 401
+>>> ==>Not 2 args (401,)
+>>> LIST ==>Not 2 args
+>>> NONE ==>Not 2 args 401
+>>> X=401, Y=None
+>>> LIST X=401, Y=None
+>>> NONE X=401, Y=None
+>>> X=None, Y=401
+>>> LIST X=None, Y=401
+>>> NONE X=None, Y=401
+>>> Match with a guard for y=9 0 9
+>>> match with 2 'capture variables' 0 0
+>>> Empty Point
+>>> Not a point
+>>> X=0
+>>> X=0, Y=1
+>>> X=0, Y=1, Z=2
+>>> No Match
+>>> Matches Point(x:0,y:0)
+>>> ('Matches {x:0,y:0} ', {}, [])
+>>> ('Matches {x:0,y:0} ', {'z': 89}, ['z'])
+>>> Color.RED
+>>> Failed
+>>> found red
 ```

@@ -6,6 +6,8 @@ nav_order: 8
 ---
 
 # Gist for:  module_declaration.py
+
+# Source Code 
 ```  python
 print("<<< Only importing fib")
 from foobonaci import fib1 as fib2,fib2 as fib1
@@ -24,4 +26,34 @@ print("User site:",site.USER_SITE)
 
 print("sys tiene",dir(sys))
 print("global namespace",dir())
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> <<< Only importing fib
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> Stuff outside declaration of FIB
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> Stuff outside declaration for FIB2
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> >>>import done
+>>> fib1 62
+>>> fib1 65
+>>> fib1 46
+>>>
+>>> We just flipped the names after import
+>>> fib2 9
+>>> fib2 94
+>>> fib2 2
+>>>
+>>> Module names ('_abc', '_ast', '_codecs', '_collections', '_functools', '_imp', '_io', '_locale', '_operator', '_signal', '_sre', '_stat', '_string', '_symtable', '_thread', '_tracemalloc', '_warnings', '_weakref', 'atexit', 'builtins', 'errno', 'faulthandler', 'gc', 'itertools', 'marshal', 'posix', 'pwd', 'sys', 'time', 'xxsubtype')
+>>> System path ['/Users/amit/PROJ/gistAnotherRepo/src', '/Users/amit/.pyenv/versions/3.10.4/lib/python310.zip', '/Users/amit/.pyenv/versions/3.10.4/lib/python3.10', '/Users/amit/.pyenv/versions/3.10.4/lib/python3.10/lib-dynload', '/Users/amit/.pyenv/versions/3.10.4/lib/python3.10/site-packages']
+>>> Prefixes: ['/Users/amit/.pyenv/versions/3.10.4', '/Users/amit/.pyenv/versions/3.10.4']
+>>> User site: /Users/amit/.local/lib/python3.10/site-packages
+>>> sys tiene ['__breakpointhook__', '__displayhook__', '__doc__', '__excepthook__', '__interactivehook__', '__loader__', '__name__', '__package__', '__spec__', '__stderr__', '__stdin__', '__stdout__', '__unraisablehook__', '_base_executable', '_clear_type_cache', '_current_exceptions', '_current_frames', '_deactivate_opcache', '_debugmallocstats', '_framework', '_getframe', '_git', '_home', '_xoptions', 'abiflags', 'addaudithook', 'api_version', 'argv', 'audit', 'base_exec_prefix', 'base_prefix', 'breakpointhook', 'builtin_module_names', 'byteorder', 'call_tracing', 'copyright', 'displayhook', 'dont_write_bytecode', 'exc_info', 'excepthook', 'exec_prefix', 'executable', 'exit', 'flags', 'float_info', 'float_repr_style', 'get_asyncgen_hooks', 'get_coroutine_origin_tracking_depth', 'getallocatedblocks', 'getdefaultencoding', 'getdlopenflags', 'getfilesystemencodeerrors', 'getfilesystemencoding', 'getprofile', 'getrecursionlimit', 'getrefcount', 'getsizeof', 'getswitchinterval', 'gettrace', 'hash_info', 'hexversion', 'implementation', 'int_info', 'intern', 'is_finalizing', 'maxsize', 'maxunicode', 'meta_path', 'modules', 'orig_argv', 'path', 'path_hooks', 'path_importer_cache', 'platform', 'platlibdir', 'prefix', 'pycache_prefix', 'set_asyncgen_hooks', 'set_coroutine_origin_tracking_depth', 'setdlopenflags', 'setprofile', 'setrecursionlimit', 'setswitchinterval', 'settrace', 'stderr', 'stdin', 'stdlib_module_names', 'stdout', 'thread_info', 'unraisablehook', 'version', 'version_info', 'warnoptions']
+>>> global namespace ['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'fib1', 'fib2', 'site', 'sys']
 ```

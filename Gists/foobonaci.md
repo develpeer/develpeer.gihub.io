@@ -6,6 +6,8 @@ nav_order: 4
 ---
 
 # Gist for:  foobonaci.py
+
+# Source Code 
 ```  python
 import random
 # Foobonacci numbers module
@@ -32,4 +34,17 @@ import sys
 if __name__ == "__main__":
     fib1(int(sys.argv[1]))
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> Stuff outside declaration of FIB
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> ++++++++++++++++++++++++++++++++++++++++
+>>> Stuff outside declaration for FIB2
+>>> ++++++++++++++++++++++++++++++++++++++++
 ```

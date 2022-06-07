@@ -6,6 +6,8 @@ nav_order: 6
 ---
 
 # Gist for:  function_variables.py
+
+# Source Code 
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 ##
@@ -83,4 +85,44 @@ print(f"Value of 'd2' before invocation is:{d2}")
 modify_reference(deepcopy(d2))
 print(f"Value of 'd2' after invocation is:{d2}")
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> Are outer variables accessible? [outer_var = 10]
+>>> Are outer variables accessible? [outer_var = 99]
+>>> Are outer variables accessible? [outer_var = 10]
+>>>
+>>> =========================
+>>> Before execution: x :10
+>>> Attempting to use the variable 'x' will throw the error:[local variable 'x' referenced before assignment]
+>>> During execution:x :11
+>>> After execution: x :10
+>>>
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Simple Dict pass by reference
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Value of 'd1' before invocation is:{'dev': 1, 'eloper': 2}
+>>> Value of 'd1' after invocation is:{'dev': 'this is modifiable', 'eloper': 2}
+>>>
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Simple Dict pass shallow copy
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Value of 'd2' before invocation is:{'dev': 1, 'eloper': 2}
+>>> Value of 'd2' after invocation is:{'dev': 1, 'eloper': 2}
+>>>
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Object with internal object
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Value of 'd2' before invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}
+>>> Value of 'd2' after invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 'Does modifying this work?', 'eloper': 2}}
+>>>
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Object with internal object -> do a deep copy
+>>> == == == == == == == == == == == == == == == == == == == == == == == == ==
+>>> Value of 'd2' before invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}
+>>> Value of 'd2' after invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}
 ```

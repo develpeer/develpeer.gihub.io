@@ -6,6 +6,8 @@ nav_order: 5
 ---
 
 # Gist for:  function_default_values.py
+
+# Source Code 
 ```  python
 from random import randint
 
@@ -90,4 +92,30 @@ print(f(1, 2, True))
 print(f(1, 2, False))
 
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> This should not work, since anything preceeding / is a positional argument[pos_only_arg() got an unexpected keyword argument 'x']
+>>> This should not work, since anything following copyGists.sh rebuild.sh is a kwarg [kwd_only_arg() takes 0 positional arguments but 1 positional argument (and 1 keyword-only argument) were given]
+>>> pos_only:1, standard:2, kwd_only:3
+>>> pos_only:1, standard:2, kwd_only:3
+>>> This should not work: [combined_example() got some positional-only arguments passed as keyword arguments: 'pos_only']
+>>> Value of name is 'Dev'
+>>> Value of name in kwds is 'None'
+>>> Value of name is 'Loper'
+>>> Value of name in kwds is 'None'
+>>> If the name occurs in both pos and kwarg, that will throw an error:[name_collision() got multiple values for argument 'name']
+>>> Value of name is 'Dev'
+>>> Value of name in kwds is 'ELoper'
+>>> Value of name is 'Dev'
+>>> Value of name in kwds is 'ELoper'
+>>> Python will treat anything after 'variadic' as keyword args:[is_the_last_argument_a_positional_argument() missing 1 required keyword-only argument: 'p2']
+>>> Arg:2
+>>> pos_arg: 200
+>>> 3
+>>> 2
 ```

@@ -6,6 +6,8 @@ nav_order: 9
 ---
 
 # Gist for:  tuple_unpacking.py
+
+# Source Code 
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 
@@ -53,4 +55,24 @@ print("After iteration into lists", list(generator_object_1), list(generator_obj
 print("Only range works a second time...!", list(generator_object_1), list(generator_object_2),
       list(generator_object_3))
 
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> a 0,b 1
+>>> a 100,b 101
+>>> a 200,b 201
+>>> a 300,b 301
+>>> a 0,b 1
+>>> a:1,b:2,c:3
+>>> a:k1,b:k2,c:k3
+>>> a:1,b:2,c:3
+>>> a:('k1', 1),b:('k2', 2),c:('k3', 3)
+>>> a:0,b:1,c:4
+>>> generators: <generator object <genexpr> at 0x1036004a0> <generator object <genexpr> at 0x103602260> range(0, 3)
+>>> After iteration into lists [0, 1, 4] [0, 1, 2] [0, 1, 2]
+>>> Only range works a second time...! [] [] [0, 1, 2]
 ```

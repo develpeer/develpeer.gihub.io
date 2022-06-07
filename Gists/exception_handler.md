@@ -6,6 +6,8 @@ nav_order: 2
 ---
 
 # Gist for:  exception_handler.py
+
+# Source Code 
 ```  python
 try:
     try:
@@ -21,4 +23,14 @@ except ZeroDivisionError:
     print("(*) Well caught in the deep")
 finally:
     print("And finally...will come here")
+```
+
+
+# Output
+After running the above code snippet, you will get this output
+
+```
+>>> >>>> It come here even if the exception is not caught
+>>> (*) Well caught in the deep
+>>> And finally...will come here
 ```
