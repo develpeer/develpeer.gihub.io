@@ -2,6 +2,7 @@
 layout: default
 title: Gist for - foobonaci.py
 parent: Gist for fun
+nav_order: 4
 ---
 
 # Gist for:  foobonaci.py

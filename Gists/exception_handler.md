@@ -2,6 +2,7 @@
 layout: default
 title: Gist for - exception_handler.py
 parent: Gist for fun
+nav_order: 2
 ---
 
 # Gist for:  exception_handler.py

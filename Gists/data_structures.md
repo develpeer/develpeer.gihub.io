@@ -2,6 +2,7 @@
 layout: default
 title: Gist for - data_structures.py
 parent: Gist for fun
+nav_order: 1
 ---
 
 # Gist for:  data_structures.py

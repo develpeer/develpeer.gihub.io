@@ -1,4 +1,5 @@
 #!/bin/bash
+nav_order=0
 for f in `ls ../../gistAnotherRepo/src/*| grep "\(py\|js\|html\|cpp\)$"`; 
 do
 	#create a new file and find ite extension
@@ -26,12 +27,13 @@ do
 	esac
 
 	echo "Creating new markdown file: ["$newf"] with extension: ["$ext"] and file type: ["$file_type"]"
+	nav_order=$((nav_order+1))
 	echo "Creating..."
         echo "---"> $newf
         echo "layout: default">> $newf
         echo "title: Gist for - "$fonly>> $newf
         echo "parent: Gist for fun">> $newf
-        #echo "nav_order: 1">> $newf
+        echo "nav_order: "$nav_order>> $newf
         echo "---">> $newf
         echo "">> $newf
         echo "# Gist for: " $fonly >> $newf

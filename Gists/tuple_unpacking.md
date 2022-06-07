@@ -2,6 +2,7 @@
 layout: default
 title: Gist for - tuple_unpacking.py
 parent: Gist for fun
+nav_order: 9
 ---
 
 # Gist for:  tuple_unpacking.py
