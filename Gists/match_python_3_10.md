@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: match_python_3_10.py
+title: Gist for - match_python_3_10.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  match_python_3_10.py

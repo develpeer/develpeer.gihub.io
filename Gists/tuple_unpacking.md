@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: tuple_unpacking.py
+title: Gist for - tuple_unpacking.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  tuple_unpacking.py

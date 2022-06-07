@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: function_variables.py
+title: Gist for - function_variables.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  function_variables.py

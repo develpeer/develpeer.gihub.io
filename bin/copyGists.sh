@@ -29,9 +29,9 @@ do
 	echo "Creating..."
         echo "---"> $newf
         echo "layout: default">> $newf
-        echo "title: Gist for: "$fonly>> $newf
+        echo "title: Gist for - "$fonly>> $newf
         echo "parent: Gists">> $newf
-        echo "nav_order: 1">> $newf
+        #echo "nav_order: 1">> $newf
         echo "---">> $newf
         echo "">> $newf
         echo "# Gist for: " $fonly >> $newf

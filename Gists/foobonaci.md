@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: foobonaci.py
+title: Gist for - foobonaci.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  foobonaci.py

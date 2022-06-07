@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: data_structures.py
+title: Gist for - data_structures.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  data_structures.py

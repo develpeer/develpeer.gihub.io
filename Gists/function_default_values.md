@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: function_default_values.py
+title: Gist for - function_default_values.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  function_default_values.py

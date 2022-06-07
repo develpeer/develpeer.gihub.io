@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Gist for: fibonacci_generator.py
+title: Gist for - fibonacci_generator.py
 parent: Gists
-nav_order: 1
 ---
 
 # Gist for:  fibonacci_generator.py
