@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: data_structures.py
-parent: Gists
+parent: Gist for fun
 nav_order: 1
 ---
 

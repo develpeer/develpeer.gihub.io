@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gist for: module_declaration.py
-parent: Gists
+parent: Gist for fun
 nav_order: 1
 ---
 

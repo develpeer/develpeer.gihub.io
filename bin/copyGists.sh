@@ -30,7 +30,7 @@ do
         echo "---"> $newf
         echo "layout: default">> $newf
         echo "title: Gist for: "$fonly>> $newf
-        echo "parent: Gists">> $newf
+        echo "parent: Gist for fun">> $newf
         echo "nav_order: 1">> $newf
         echo "---">> $newf
         echo "">> $newf
