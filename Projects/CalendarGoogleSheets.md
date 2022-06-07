@@ -6,6 +6,8 @@ nav_order: 1
 ---
 # Google Sheets Calendar
 
+<a href="https://www.producthunt.com/posts/calendars-inside-google-sheets?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-calendars&#0045;inside&#0045;google&#0045;sheets" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=348715&theme=light" alt="Calendars&#0032;inside&#0032;Google&#0032;Sheets - Create&#0032;Calendar&#0032;views&#0032;inside&#0032;Google&#0032;Sheets&#0032;for&#0032;any&#0032;year | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 ###  tl;dr (quickstart)
 Get started by copying this spreadsheet -> [Editable Calendar for any year in Google Sheets](https://docs.google.com/spreadsheets/d/13Ip7XqFefAhJLJExgPwqhUVyzK9U10TeIDiKt4Wc6SU/edit?usp=sharing)
 
