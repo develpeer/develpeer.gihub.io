@@ -1,8 +1,11 @@
 ---
 layout: default
-title: ../../gistAnotherRepo/src/fibonacci_generator.py
+title: Gist for: fibonacci_generator.py
 parent: Gists
+nav_order: 1
 ---
+
+# Gist for:  fibonacci_generator.py
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 ##

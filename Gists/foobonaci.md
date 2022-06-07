@@ -1,8 +1,11 @@
 ---
 layout: default
-title: ../../gistAnotherRepo/src/foobonaci.py
+title: Gist for: foobonaci.py
 parent: Gists
+nav_order: 1
 ---
+
+# Gist for:  foobonaci.py
 ```  python
 import random
 # Foobonacci numbers module

@@ -1,8 +1,11 @@
 ---
 layout: default
-title: ../../gistAnotherRepo/src/tuple_unpacking.py
+title: Gist for: tuple_unpacking.py
 parent: Gists
+nav_order: 1
 ---
+
+# Gist for:  tuple_unpacking.py
 ```  python
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 

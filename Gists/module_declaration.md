@@ -1,8 +1,11 @@
 ---
 layout: default
-title: ../../gistAnotherRepo/src/module_declaration.py
+title: Gist for: module_declaration.py
 parent: Gists
+nav_order: 1
 ---
+
+# Gist for:  module_declaration.py
 ```  python
 print("<<< Only importing fib")
 from foobonaci import fib1 as fib2,fib2 as fib1

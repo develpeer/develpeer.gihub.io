@@ -1,8 +1,11 @@
 ---
 layout: default
-title: ../../gistAnotherRepo/src/exception_handler.py
+title: Gist for: exception_handler.py
 parent: Gists
+nav_order: 1
 ---
+
+# Gist for:  exception_handler.py
 ```  python
 try:
     try:

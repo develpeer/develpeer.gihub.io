@@ -2,8 +2,9 @@
 for f in `ls ../../gistAnotherRepo/src/*| grep "\(py\|js\|html\|cpp\)$"`; 
 do
 	#create a new file and find ite extension
-	newf=`echo $f |sed -e "s/.*\//..\/Gists\//"| sed -e "s/py/md/"`
+	newf=`echo $f |sed -e "s/.*\//..\/Gists\//"| sed -e "s/.[^.]*$/.md/"`
 	ext=`echo $f |sed -e "s/.*\.//"`
+  fonly=`echo $f |sed -e "s/.*\///"`
 
 	#Determins file type based on extension
 	case $ext in
@@ -28,9 +29,13 @@ do
 	echo "Creating..."
         echo "---"> $newf
         echo "layout: default">> $newf
-        echo "title: "$f>> $newf
+        echo "title: Gist for: "$fonly>> $newf
         echo "parent: Gists">> $newf
+        echo "nav_order: 1">> $newf
         echo "---">> $newf
+        echo "">> $newf
+        echo "# Gist for: " $fonly >> $newf
+
 	echo "\`\`\` " $file_type >> $newf
 	cat $f >> $newf
 	echo "\`\`\`" >> $newf
