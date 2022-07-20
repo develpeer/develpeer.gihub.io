@@ -1,13 +1,13 @@
 #!/bin/bash
 nav_order=0
-for f in `ls ../../gistAnotherRepo/src/*| grep "\(py\|js\|html\|cpp\)$"`; 
+for f in `ls ../../gistAnotherRepo/src/*| grep "\(py\|js\|html\|cpp\)$"|grep -v "__init__"`;
 do
 	#create a new file and find ite extension
 	newf=`echo $f |sed -e "s/.*\//..\/Gists\//"| sed -e "s/.[^.]*$/.md/"`
 	ext=`echo $f |sed -e "s/.*\.//"`
   fonly=`echo $f |sed -e "s/.*\///"`
 
-	#Determins file type based on extension
+	#Determine file type based on extension
 	case $ext in
 	  py)
             file_type="python"
