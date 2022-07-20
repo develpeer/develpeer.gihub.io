@@ -19,7 +19,7 @@ import types
 
 def fib(*args):
     """
-    generates fibonacci series, upto N alements apssed in as an argument, or infinitely
+    generates fibonacci series, upto N elements passed in as an argument, or infinitely
     :param args:
     :return:
     """

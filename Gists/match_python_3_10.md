@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - match_python_3_10.py
 parent: Gist for fun
-nav_order: 7
+nav_order: 6
 ---
 
 # Gist for:  match_python_3_10.py
@@ -16,11 +16,11 @@ nav_order: 7
 # which matches static values and supports tuple expansion
 ##
 def http_error(status):
-    '''
+    """
     Simple Match Statement. Matches static values
     :param status:
     :return: Status String
-    '''
+    """
     match status:
         case 400:
             return "Bad request"

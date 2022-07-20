@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - function_variables.py
 parent: Gist for fun
-nav_order: 6
+nav_order: 5
 ---
 
 # Gist for:  function_variables.py
