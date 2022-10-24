@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - tuple_unpacking.py
 parent: Gist for fun
-nav_order: 9
+nav_order: 11
 ---
 
 # Gist for:  tuple_unpacking.py
@@ -12,7 +12,7 @@ nav_order: 9
 # the one and only Dev.E.L'Peer  https://github.com/develpeer
 
 ##
-# Tuple (or iterable) expandion, one of the most loved/hated features of python
+# Tuple (or iterable) expansion, one of the most loved/hated features of python
 ##
 (a, b) = 0, 1
 print(f"a {a},b {b}")
@@ -72,7 +72,7 @@ After running the above code snippet, you will get this output
 >>> a:1,b:2,c:3
 >>> a:('k1', 1),b:('k2', 2),c:('k3', 3)
 >>> a:0,b:1,c:4
->>> generators: <generator object <genexpr> at 0x1083004a0> <generator object <genexpr> at 0x108302260> range(0, 3)
+>>> generators: <generator object <genexpr> at 0x109c044a0> <generator object <genexpr> at 0x109c06260> range(0, 3)
 >>> After iteration into lists [0, 1, 4] [0, 1, 2] [0, 1, 2]
 >>> Only range works a second time...! [] [] [0, 1, 2]
 ```
