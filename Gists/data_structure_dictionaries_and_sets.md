@@ -87,19 +87,19 @@ After running the above code snippet, you will get this output
 
 ```
 >>> t = ('hello', None), t==v :False, u==v :True
->>> Set Diff: {'r', 't', 'e', 'y'}
->>> Set Union: {'o', 't', 'y', 'n', 'l', 'r', 'e'}
+>>> Set Diff: {'y', 't', 'r', 'e'}
+>>> Set Union: {'o', 'l', 'e', 'n', 'y', 't', 'r'}
 >>> Set intersection: {'l'}
->>> Set XOR {'o', 't', 'n', 'e', 'r', 'y'}
->>> Set XOR {'o', 't', 'n', 'e', 'r', 'y'}
+>>> Set XOR {'o', 'n', 't', 'r', 'e', 'y'}
+>>> Set XOR {'o', 'n', 't', 'r', 'e', 'y'}
 >>> name lancelot
 >>> quest the holy grail
 >>> favorite color blue
 >>> {'name': 'lancelot', 'quest': 'the holy grail', 'favorite color': 'blue'}
 >>> Filtered data is [57.2, 52.7, 56.3, 53.5, 48.8]
->>> {'a', 'b'} <class 'set'>
+>>> {'b', 'a'} <class 'set'>
 >>> calling .keys() or .items() will fail
 >>> assigning values to a set will also fail
->>> {'a', 'b'} <class 'set'>
+>>> {'b', 'a'} <class 'set'>
 >>> Comparing objects of different types with < or > is legal provided that the objects have appropriate comparison methods
 ```

@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - input_output.py
 parent: Gist for fun
-nav_order: 7
+nav_order: 9
 ---
 
 # Gist for:  input_output.py
@@ -23,11 +23,15 @@ except FileNotFoundError as e:
     try:
         f =  open("../../gistAnotherRepo/README.md")
     except FileNotFoundError as e:    
-            print("File not found at all. Give up completely")
-
-if f:
-    while l := f.readline():
-        print(repr(l))
+            print("File not found at all. Give up completely?")
+finally:
+    if f:
+        while l := f.readline():
+            print(repr(l))
+    else:
+        # Is this fatal?
+        # if it is fatal, then you don't need the 2nd try/catch
+        pass
 
     
 

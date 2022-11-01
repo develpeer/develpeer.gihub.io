@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - function_variables.py
 parent: Gist for fun
-nav_order: 6
+nav_order: 8
 ---
 
 # Gist for:  function_variables.py
@@ -166,7 +166,7 @@ After running the above code snippet, you will get this output
 >>> == == == == == == == == == == == == == == == == == == == == == == == == ==
 >>> Value of 'd2' before invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}
 >>> Value of 'd2' after invocation is:{'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}
->>> Globals===> {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x100f54c40>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/Users/amit/PROJ/pub/bin/../../gistAnotherRepo/src/function_variables.py', '__cached__': None, 'copy': <function copy at 0x100fb69e0>, 'deepcopy': <function deepcopy at 0x100fe3e20>, 'x': 100, 'func_in_func': <function func_in_func at 0x100fb68c0>, 'name_collision_variable_hoisting': <function name_collision_variable_hoisting at 0x100ff4310>, 'd1': {'dev': 'this is modifiable', 'eloper': 2}, 'modify_reference': <function modify_reference at 0x100ff43a0>, 'modify_param': <function modify_param at 0x100ff4430>, 'z': [1000], 'modify_object': <function modify_object at 0x100ff44c0>, 'd2': {'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}, 'test_locals': <function test_locals at 0x100ff4700>}
+>>> Globals===> {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x10b844c40>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/Users/amit/PROJ/pub/bin/../../gistAnotherRepo/src/function_variables.py', '__cached__': None, 'copy': <function copy at 0x10b8a69e0>, 'deepcopy': <function deepcopy at 0x10b8d7e20>, 'x': 100, 'func_in_func': <function func_in_func at 0x10b8a68c0>, 'name_collision_variable_hoisting': <function name_collision_variable_hoisting at 0x10b8e4310>, 'd1': {'dev': 'this is modifiable', 'eloper': 2}, 'modify_reference': <function modify_reference at 0x10b8e43a0>, 'modify_param': <function modify_param at 0x10b8e4430>, 'z': [1000], 'modify_object': <function modify_object at 0x10b8e44c0>, 'd2': {'dev': 1, 'eloper': 2, 'd1': {'dev': 1, 'eloper': 2}}, 'test_locals': <function test_locals at 0x10b8e4700>}
 >>> ================================================================================
 >>> Locals {'inner_var': 10}
 >>> Locals and will now contain 'inner_var_2', So will l.

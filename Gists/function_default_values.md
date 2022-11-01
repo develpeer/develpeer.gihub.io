@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - function_default_values.py
 parent: Gist for fun
-nav_order: 5
+nav_order: 7
 ---
 
 # Gist for:  function_default_values.py
@@ -117,5 +117,5 @@ After running the above code snippet, you will get this output
 >>> Arg:2
 >>> pos_arg: 200
 >>> 3
->>> 3
+>>> 2
 ```
