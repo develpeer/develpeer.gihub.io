@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - module_exercises.py
 parent: Gist for fun
-nav_order: 12
+nav_order: 13
 ---
 
 # Gist for:  module_exercises.py
@@ -70,16 +70,16 @@ After running the above code snippet, you will get this output
 >>> Declaring fib1
 >>> Declaring fib2
 >>> I am: foobonacci
->>> fib2 62
->>> fib2 65
->>> fib2 99
->>> fib2 71
->>> fib2 80
->>> fib2 41
->>> fib2 94
->>> fib2 89
->>> fib2 90
->>> fib2 22
+>>> fib2 68
+>>> fib2 66
+>>> fib2 70
+>>> fib2 67
+>>> fib2 73
+>>> fib2 67
+>>> fib2 44
+>>> fib2 81
+>>> fib2 100
+>>> fib2 14
 >>>
 >>> Sub Foob will not be imported
 >>> sub_foob cannot be accessed by reference

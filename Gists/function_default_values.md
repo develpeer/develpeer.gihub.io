@@ -2,13 +2,17 @@
 layout: default
 title: Gist for - function_default_values.py
 parent: Gist for fun
-nav_order: 7
+nav_order: 8
 ---
 
 # Gist for:  function_default_values.py
 
 # Source Code 
 ```  python
+# the one and only Dev.E.L'Peer  https://github.com/develpeer
+##
+# This gist explores function invocation, positional and keyword params 
+##
 from random import randint
 
 
@@ -92,6 +96,21 @@ print(f(1, 2, True))
 print(f(1, 2, False))
 
 
+def f2(a,b):
+    print(f"a={a},b={b}")
+
+f2(1,2)
+l = (1,2)
+f2(*l)
+f2(1,*(2,))
+#positional parameters are applied before keyword params 
+try:
+    f2(a=1,*(2,))
+except TypeError:
+    print("positional parameters are applied before keyword params ")
+f2(b=2,*(1,))
+
+
 ```
 
 
@@ -117,5 +136,10 @@ After running the above code snippet, you will get this output
 >>> Arg:2
 >>> pos_arg: 200
 >>> 3
->>> 2
+>>> 3
+>>> a=1,b=2
+>>> a=1,b=2
+>>> a=1,b=2
+>>> positional parameters are applied before keyword params
+>>> a=1,b=2
 ```

@@ -2,14 +2,17 @@
 layout: default
 title: Gist for - exploring_python_classes.py
 parent: Gist for fun
-nav_order: 5
+nav_order: 6
 ---
 
 # Gist for:  exploring_python_classes.py
 
 # Source Code 
 ```  python
-
+# the one and only Dev.E.L'Peer  https://github.com/develpeer
+##
+# This gist explores simple classes
+##
 class MY_FIRST_CLASS:
     """Should class names be camel case? 
     Who the fuck knows? And honestly how does it matter in a language 
@@ -170,7 +173,7 @@ After running the above code snippet, you will get this output
 >>> 'MY_FIRST_CLASS' object has no attribute 'o_var_1'
 >>> !!!!You can delete attributes of an object from outside the object.. WTF!!
 >>> So much for encapsulation
->>> MY_FIRST_CLASS.f1 <function MY_FIRST_CLASS.f1 at 0x1059f2830>
+>>> MY_FIRST_CLASS.f1 <function MY_FIRST_CLASS.f1 at 0x10dff2830>
 >>> MY_FIRST_CLASS.f1() you get what you so.. do not deserve
 >>> o.f1 <bound method MY_FIRST_CLASS.f1 of
 >>> classvar:100, #class var accessed via class

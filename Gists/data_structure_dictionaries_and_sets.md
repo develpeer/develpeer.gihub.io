@@ -87,11 +87,11 @@ After running the above code snippet, you will get this output
 
 ```
 >>> t = ('hello', None), t==v :False, u==v :True
->>> Set Diff: {'y', 't', 'r', 'e'}
->>> Set Union: {'o', 'l', 'e', 'n', 'y', 't', 'r'}
+>>> Set Diff: {'y', 'e', 't', 'r'}
+>>> Set Union: {'t', 'r', 'y', 'e', 'n', 'o', 'l'}
 >>> Set intersection: {'l'}
->>> Set XOR {'o', 'n', 't', 'r', 'e', 'y'}
->>> Set XOR {'o', 'n', 't', 'r', 'e', 'y'}
+>>> Set XOR {'y', 'e', 'n', 't', 'r', 'o'}
+>>> Set XOR {'y', 'e', 'n', 't', 'r', 'o'}
 >>> name lancelot
 >>> quest the holy grail
 >>> favorite color blue

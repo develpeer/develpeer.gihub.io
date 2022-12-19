@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - input_output.py
 parent: Gist for fun
-nav_order: 9
+nav_order: 10
 ---
 
 # Gist for:  input_output.py

@@ -2,7 +2,7 @@
 layout: default
 title: Gist for - tuple_unpacking.py
 parent: Gist for fun
-nav_order: 13
+nav_order: 14
 ---
 
 # Gist for:  tuple_unpacking.py
@@ -72,7 +72,7 @@ After running the above code snippet, you will get this output
 >>> a:1,b:2,c:3
 >>> a:('k1', 1),b:('k2', 2),c:('k3', 3)
 >>> a:0,b:1,c:4
->>> generators: <generator object <genexpr> at 0x1101884a0> <generator object <genexpr> at 0x11018a260> range(0, 3)
+>>> generators: <generator object <genexpr> at 0x10b7784a0> <generator object <genexpr> at 0x10b77a260> range(0, 3)
 >>> After iteration into lists [0, 1, 4] [0, 1, 2] [0, 1, 2]
 >>> Only range works a second time...! [] [] [0, 1, 2]
 ```

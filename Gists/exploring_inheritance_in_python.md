@@ -2,15 +2,21 @@
 layout: default
 title: Gist for - exploring_inheritance_in_python.py
 parent: Gist for fun
-nav_order: 4
+nav_order: 5
 ---
 
 # Gist for:  exploring_inheritance_in_python.py
 
 # Source Code 
 ```  python
+# the one and only Dev.E.L'Peer  https://github.com/develpeer
+##
+# This gist explores class inheritance including multiple inheritance
+##
 import json
 from multiprocessing.util import abstract_sockets_supported
+
+from exploring_python_classes import MY_DERIVED_CLASS
 
 
 class BABY_BASE:
@@ -124,6 +130,11 @@ class T:
 t = T()
 print("instance of T:",t)
 print("t.doc:",t.__doc__)
+
+print(BABY_BASE.__dict__)
+
+
+
 ```
 
 
@@ -131,6 +142,111 @@ print("t.doc:",t.__doc__)
 After running the above code snippet, you will get this output
 
 ```
+>>>
+>>> classvar:100, #class var accessed via class
+>>> classvar_2:200, #class var accessed via class
+>>> o_var_1:300,
+>>> o_var_2:3.14,
+>>>
+>>> ----------------------------------------
+>>> All the attribites of o:
+>>> __class__
+>>> copyGists.sh rebuild.sh __delattr__
+>>> copyGists.sh rebuild.sh __dict__
+>>> copyGists.sh rebuild.sh __dir__
+>>> copyGists.sh rebuild.sh __doc__
+>>> copyGists.sh rebuild.sh __eq__
+>>> copyGists.sh rebuild.sh __format__
+>>> copyGists.sh rebuild.sh __ge__
+>>> copyGists.sh rebuild.sh __getattribute__
+>>> copyGists.sh rebuild.sh __gt__
+>>> copyGists.sh rebuild.sh __hash__
+>>> copyGists.sh rebuild.sh __init__
+>>> copyGists.sh rebuild.sh __init_subclass__
+>>> copyGists.sh rebuild.sh __le__
+>>> copyGists.sh rebuild.sh __lt__
+>>> copyGists.sh rebuild.sh __module__
+>>> copyGists.sh rebuild.sh __ne__
+>>> copyGists.sh rebuild.sh __new__
+>>> copyGists.sh rebuild.sh __private_var__
+>>> copyGists.sh rebuild.sh __reduce__
+>>> copyGists.sh rebuild.sh __reduce_ex__
+>>> copyGists.sh rebuild.sh __repr__
+>>> copyGists.sh rebuild.sh __setattr__
+>>> copyGists.sh rebuild.sh __sizeof__
+>>> copyGists.sh rebuild.sh __str__
+>>> copyGists.sh rebuild.sh __subclasshook__
+>>> copyGists.sh rebuild.sh __weakref__
+>>> copyGists.sh rebuild.sh class_var
+>>> copyGists.sh rebuild.sh class_var_2
+>>> copyGists.sh rebuild.sh f1
+>>> copyGists.sh rebuild.sh f2
+>>> copyGists.sh rebuild.sh o_var_1
+>>> copyGists.sh rebuild.sh o_var_2
+>>> ----------------------------------------
+>>> All the attribites of MyFirstClass:
+>>> __class__
+>>> copyGists.sh rebuild.sh __delattr__
+>>> copyGists.sh rebuild.sh __dict__
+>>> copyGists.sh rebuild.sh __dir__
+>>> copyGists.sh rebuild.sh __doc__
+>>> copyGists.sh rebuild.sh __eq__
+>>> copyGists.sh rebuild.sh __format__
+>>> copyGists.sh rebuild.sh __ge__
+>>> copyGists.sh rebuild.sh __getattribute__
+>>> copyGists.sh rebuild.sh __gt__
+>>> copyGists.sh rebuild.sh __hash__
+>>> copyGists.sh rebuild.sh __init__
+>>> copyGists.sh rebuild.sh __init_subclass__
+>>> copyGists.sh rebuild.sh __le__
+>>> copyGists.sh rebuild.sh __lt__
+>>> copyGists.sh rebuild.sh __module__
+>>> copyGists.sh rebuild.sh __ne__
+>>> copyGists.sh rebuild.sh __new__
+>>> copyGists.sh rebuild.sh __private_var__
+>>> copyGists.sh rebuild.sh __reduce__
+>>> copyGists.sh rebuild.sh __reduce_ex__
+>>> copyGists.sh rebuild.sh __repr__
+>>> copyGists.sh rebuild.sh __setattr__
+>>> copyGists.sh rebuild.sh __sizeof__
+>>> copyGists.sh rebuild.sh __str__
+>>> copyGists.sh rebuild.sh __subclasshook__
+>>> copyGists.sh rebuild.sh __weakref__
+>>> copyGists.sh rebuild.sh class_var
+>>> copyGists.sh rebuild.sh class_var_2
+>>> copyGists.sh rebuild.sh f1
+>>> copyGists.sh rebuild.sh f2
+>>> 'MY_FIRST_CLASS' object has no attribute 'o_var_1'
+>>> !!!!You can delete attributes of an object from outside the object.. WTF!!
+>>> So much for encapsulation
+>>> MY_FIRST_CLASS.f1 <function MY_FIRST_CLASS.f1 at 0x10aa769e0>
+>>> MY_FIRST_CLASS.f1() you get what you so.. do not deserve
+>>> o.f1 <bound method MY_FIRST_CLASS.f1 of
+>>> classvar:100, #class var accessed via class
+>>> classvar_2:200, #class var accessed via class
+>>> o_var_1:UNDEFINED,
+>>> o_var_2:3.14,
+>>> >
+>>> I got me some args y'all, because python uses an implicit invocation context to differentiate betwwen instance and class methods
+>>> That is if this method is an object method, you must declare its firt arg as 'self', which fuck that ..i'm going tojust call python_sucks..see next method
+>>> Stupid stupid python arg =
+>>> classvar:100, #class var accessed via class
+>>> classvar_2:200, #class var accessed via class
+>>> o_var_1:UNDEFINED,
+>>> o_var_2:3.14,
+>>>
+>>> o.f1 you get what you so.. do not deserve
+>>> o.f2 <bound method MY_FIRST_CLASS.f2 of
+>>> classvar:100, #class var accessed via class
+>>> classvar_2:200, #class var accessed via class
+>>> o_var_1:UNDEFINED,
+>>> o_var_2:3.14,
+>>> >
+>>> o.f2 returned 314.0
+>>> invoking the method at class level will cause a TypeError
+>>> This should work just fine. 'of2' is bound to 'o': 314.0
+>>> Class variables can be accessed in one of two ways outside the class definition: True
+>>> {'o_var_1': 300, 'o_var_2': -200} 100 200 -20000
 >>> BC:constructor
 >>> bb: {
 >>> "base_object_var_1": 101,
@@ -181,6 +297,7 @@ After running the above code snippet, you will get this output
 >>> }
 >>> Yes implementation
 >>> WTF python: c2
->>> instance of T: <__main__.T object at 0x101c34e80>
+>>> instance of T: <__main__.T object at 0x10aa6d2d0>
 >>> t.doc: hello world
+>>> {'__module__': '__main__', '__doc__': 'I find Class:BabyBase and Object:baby_base incosistent', 'base_class_var': 100.1, '__init__': <function BABY_BASE.__init__ at 0x10aa767a0>, '__repr__': <function BABY_BASE.__repr__ at 0x10aa76b00>, 'abstract_func': <function BABY_BASE.abstract_func at 0x10aa76b90>, '__dict__': <attribute '__dict__' of 'BABY_BASE' objects>, '__weakref__': <attribute '__weakref__' of 'BABY_BASE' objects>}
 ```
